@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { StackProvider, StackTheme } from "@stackframe/stack";
 import { stackServerApp } from "../stack";
 import Header from "@/components/ui/header";
+import { Footerdemo } from "@/components/ui/footer-section";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
           <StackTheme>
             <Header />
             {children}
+            <Footerdemo />
           </StackTheme>
         </StackProvider>
       </body>

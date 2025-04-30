@@ -1,6 +1,7 @@
 import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button"
 
+
 function Hero1() {
   return (
     <div className="w-full">
